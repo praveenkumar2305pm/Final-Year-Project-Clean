@@ -12,3 +12,5 @@ pillow==10.3.0
 google-api-python-client==2.48.0
 beautifulsoup4
 setuptools==69.5.1
+httplib2>=0.20.2
+pyparsing>=3.0.0
