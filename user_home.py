@@ -21,9 +21,23 @@ import torchvision.transforms.functional as TF
 disease_info = pd.read_csv('disease_info.csv' , encoding='cp1252')
 supplement_info = pd.read_csv('supplement_info.csv',encoding='cp1252')
 
-model = CNN.CNN(39)    
-model.load_state_dict(torch.load("plant_disease_model_1_latest.pt"))
+
+MODEL_PATH = "plant_disease_model_1_latest.pt"
+FILE_ID = "1G0NeCpm8xGLHd4UzwwWDx-ohcw3596cF"
+
+if not os.path.exists(MODEL_PATH):
+    import gdown
+    url = f"https://drive.google.com/uc?id={FILE_ID}"
+    gdown.download(url, MODEL_PATH, quiet=False)
+
+if not os.path.exists(MODEL_PATH) or os.path.getsize(MODEL_PATH) == 0:
+    st.error("Model download failed. Check that Google Drive sharing is set to Anyone with the link.")
+    st.stop()
+
+model = CNN.CNN(39)
+model.load_state_dict(torch.load(MODEL_PATH, map_location="cpu"))
 model.eval()
+
 
 def prediction(image_path):
     image = Image.open(image_path)
