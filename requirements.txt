@@ -11,3 +11,4 @@ pyowm==3.3.0
 pillow==10.3.0
 google-api-python-client==2.48.0
 beautifulsoup4
+setuptools
