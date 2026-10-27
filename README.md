@@ -146,12 +146,40 @@ Live application: [Smart Plant Health Monitoring System](https://praveenkumar230
 
 ## 🔮 Future Enhancements
 
-- Improve model performance through further training and evaluation.
-- Expand crop and disease coverage.
-- Provide more localized crop recommendations.
-- Improve prediction explanations and confidence reporting.
-- Enhance application security and user account management.
-- Add automated testing and more detailed performance evaluation.
+The following enhancements are planned to improve the usability, accessibility, and practical value of the Smart Plant Health Monitoring and Management System.
+
+### 1. 🌱 IoT Integration for Real-Time Plant Monitoring
+Integrate IoT sensors to collect real-time environmental data, such as soil moisture, temperature, humidity, and soil conditions. Use the collected data to help users monitor plant health and make informed irrigation and plant-care decisions.
+
+### 2. 📩 SMS and Alert Notification System
+Introduce SMS notifications and configurable alerts to inform users about detected plant diseases, low soil moisture, unfavorable weather conditions, and important plant-care activities. Notifications would depend on available data and configured alert thresholds.
+
+### 3. 📱 Mobile-Friendly and Responsive Interface
+Optimize the application for smartphones, tablets, and desktop computers. Improve navigation, image uploads, dashboard layouts, and readability to provide a smoother experience across different screen sizes.
+
+### 4. 🤖 Improved AI-Based Disease Detection
+Explore additional training data, model evaluation techniques, and image preprocessing methods to improve disease classification performance. Provide prediction confidence information where supported by the model.
+
+### 5. 🌦️ Smart Weather-Based Recommendations
+Enhance weather integration to provide relevant plant-care suggestions based on temperature, humidity, rainfall forecasts, and other available weather information.
+
+### 6. 💧 Intelligent Irrigation Recommendations
+Combine environmental data and, in a future IoT-enabled version, soil moisture readings to recommend when plants may need watering. Automated irrigation could be explored as a later extension.
+
+### 7. 🌐 Multilingual Support
+Introduce regional language support, including Telugu, to make the application easier to use for farmers and other users who prefer local-language guidance.
+
+### 8. 🔐 Enhanced Security and User Experience
+Strengthen authentication, securely manage API credentials, improve error handling, and introduce appropriate data protection measures.
+
+### 9. 📊 Historical Data and Analytics
+Add historical charts and reports to help users understand changes in environmental conditions, plant health observations, and seasonal agricultural trends.
+
+### 10. 🧪 Continuous Testing and Model Evaluation
+Establish systematic testing for application features and evaluate the disease detection model using suitable validation datasets and performance metrics.
+
+*These enhancements are proposed future improvements and are not represented as currently implemented features.*
+
 
 ## 🎯 Project Objective
 
