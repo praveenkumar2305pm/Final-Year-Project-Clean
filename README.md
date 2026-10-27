@@ -159,9 +159,9 @@ The objective of this project is to demonstrate how machine learning, deep learn
 
 ## 👨‍💻 Author
 
-**Praveen Kumar**
+**Peddamudium Praveen Kumar**
 
-Computer Science and Engineering
+Bachelor of Technology (B.Tech) — Computer Science and Engineering
 
 - **GitHub:** [praveenkumar2305pm](https://github.com/praveenkumar2305pm)
 - **Live Project:** [Smart Plant Health Monitoring System](https://praveenkumar2305pm-final-year-project-clean-main-ejokuf.streamlit.app/)
